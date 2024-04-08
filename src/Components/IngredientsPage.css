@@ -1,0 +1,205 @@
+.ingredients-page {
+    display: flex;
+   justify-content: center; 
+   align-items: flex-start; 
+   padding: 20px;
+   background: radial-gradient(#F5F5F5, #FFFFFF);
+ }
+ 
+ .food-details {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .food-picture {
+   width: 400px;
+   height: auto;
+   border-radius: 10px;
+   justify-content: center;
+   object-position: z;
+ }
+ 
+ .food-picture img{
+   justify-content: center;
+ }
+ 
+ .food-info {
+   margin-top: 20px;
+   text-align: center;
+ }
+ 
+ .food-title {
+   font-size: 50px;
+   margin-bottom: 10px;
+   font-family: 'Reem Kufi';
+ }
+ 
+ .food-description {
+   font-size: 17px;
+   font-family: "Libre Caslon Text", serif;
+ }
+ 
+ .food-description1{
+   font-size: 20px;
+   font-family: "Libre Caslon Text", serif;
+ }
+ 
+ .food-sub-title{
+   font-size: 30px;
+ }
+ 
+ .recipe-details {
+   margin-left: 50px;
+ }
+ 
+ .recipe-header{
+   align-items: center;
+   text-align: center;
+ }
+ 
+ .ingredients-title{
+   text-align: center;
+   font-size: 30px;
+   font-family: 'Reem Kufi';
+   /* margin-bottom: auto; */
+ }
+ 
+ .ingredients-list {
+  list-style-type: none;
+   padding: 0;
+   text-align: center;
+   font-family: "Libre Caslon Text", serif;
+   
+ }
+ 
+ .time-section {
+   /* margin-top: 10px;
+   border: 2px solid #ccc;
+   border-radius: 10px;
+   padding: 20px; */
+   /* display: flex; */
+   
+ }
+ 
+ .tyd{
+   width:160px;
+     border:1px solid grey;
+     text-align:center;
+     min-height:150px;
+     height:auto;
+     vertical-align:middle;
+     padding:8px;
+     float:left;
+     border-radius: 30px;
+ }
+ 
+ .tyd:hover{
+   background-color: rgb(237, 155, 4);
+ }
+ 
+ 
+ .time{
+ margin-top: 1rem;
+ }
+ 
+ .content{
+ margin-right: 1rem;
+ }
+ 
+ .time-section h2 {
+   font-family: 'Reem Kufi';
+   font-size: 30px;
+ }
+ 
+ .time-section p {
+   font-family: "Libre Caslon Text", serif;
+ }
+ 
+ .time-section i {
+   margin-right: 5px;
+ }
+ .recipe-container {
+   max-width: 800px;
+   margin: 0 auto;
+ }
+ 
+ .recipe-header {
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+ }
+ 
+ .actions {
+   display: flex;
+   align-items: center;
+   margin: auto;
+   justify-content: center;
+ }
+ 
+ .share-button, .print-button {
+   background-color: rgb(237, 155, 4);
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   margin-right: 10px;
+   cursor: pointer;
+   font-family: "Libre Caslon Text", serif;
+   
+ }
+ 
+ .share-button:hover, .print-button:hover {
+   background-color: orangered;
+ }
+ 
+ .rating {
+   color: gold; /* Star color */
+   font-size: 24px;
+ }
+ 
+ .star {
+   margin-right: 5px;
+ }
+ 
+ .recipe-content {
+   /* background-color: #fff;
+   border: 1px solid #ccc; */
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+ }
+ 
+ 
+ .recipe-content {
+   clear: both;
+ }
+ 
+ 
+ .recipe-content-container {
+   width: 100%; 
+   margin-left: auto; 
+   margin-right: auto;
+ }
+ 
+ .food-title-directions{
+   font-size: 30px;
+   font-family: 'Reem Kufi';
+ }
+ 
+ .food-step-tittle{
+   font-size: 20px;
+   font-family: 'Reem Kufi';
+ }
+ 
+ .food-steps{
+   font-size: 16px;
+   font-family: "Libre Caslon Text", serif;
+ }
+ 
+ .youtube-section h2{
+   font-size: 30px;
+   font-family: 'Reem Kufi';
+ }
+ 
+ 
