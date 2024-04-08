@@ -1,17 +1,18 @@
-import { BrowserRouter,Routes, Route } from 'react-router-dom';
-import IngredientsPage from "./Components/ChickenCurry";
-import HomePage from "./HomePage";
+import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
+import IngredientsPage from "./Components/IngredientsPage"
+import HomePage from "./HomePage"
 
 
 
 function App() {
   return (
-    <BrowserRouter>
-    <Routes>
-      <Route path="/" exact component={HomePage} />
-      <Route path="/ingredients" component={IngredientsPage} />
-    </Routes>
-   </BrowserRouter>
+     <Router>
+     <Routes>
+     <Route path="/" exact element={<HomePage />} />
+       {/* <Route path="/" exact component={HomePage} /> */}
+       <Route path="/ingredients" element={<IngredientsPage/>} />
+     </Routes>
+  </Router> 
   );
 }
 

@@ -2,6 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-solid-svg-icons';
 import './IngredientsPage.css';
+import HomeIcon from "@mui/icons-material/Home";
+
 
 
 const IngredientsPage = () => {
@@ -121,6 +123,7 @@ const IngredientsPage = () => {
           </div>
         </div>
       </div>
+  
     
   );
 }
