@@ -9,7 +9,6 @@ function App() {
      <Router>
      <Routes>
      <Route path="/" exact element={<HomePage />} />
-       {/* <Route path="/" exact component={HomePage} /> */}
        <Route path="/ingredients" element={<IngredientsPage/>} />
      </Routes>
   </Router> 

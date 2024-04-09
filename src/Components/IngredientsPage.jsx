@@ -2,13 +2,18 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-solid-svg-icons';
 import './IngredientsPage.css';
-import HomeIcon from "@mui/icons-material/Home";
+import BackArrow from "../Assets/back-arrow-icon.webp"
 
 
 
 const IngredientsPage = () => {
   return (
     <div className="ingredients-page">
+     <div className="arrows">
+        <a href="/">
+          <img src={BackArrow} alt="Back" style={{ width: '150px', height: '50px' }} />
+        </a>
+      </div>
       <div className="food-details">
         <h1 className="food-title">Indian Chicken Curry</h1>
         <img src="https://www.recipetineats.com/wp-content/uploads/2023/10/African-coconut-chicken-curry_3.jpg" alt="Food" className="food-picture" />

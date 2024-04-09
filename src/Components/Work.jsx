@@ -12,29 +12,29 @@ import Chef from "../Assets/chef.webp";
 const Work = () => {
   const workInfoData = [
     {
-      image: Roast,
-      title: "Roast Chicken",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      image: Curry,
+      title: "Chicken Curry",
+      text: "Indulge in the irresistible allure of our chicken curry, a flavor-packed delight that is loved by many",
     },
     {
       image: Roti,
       title: "Roti",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      text: "Savor the simple yet satisfying pleasure of freshly made roti—soft, flaky, and utterly delicious",
     },
     {
-      image: Curry,
-      title: "Chicken Curry",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      image: Roast,
+      title: "Roast Chicken",
+      text: "Indulge in succulent roast chicken infused with aromatic herbs and spices.",
     },
     {
       image: Spaghetti,
       title: "Spaghetti",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      text: "Fall in love with the timeless comfort of spaghetti Bolognese—al dente pasta. ",
     },
     {
       image: Chef,
       title: "Fast And Easy",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      text: "Our reciepes are simple, cost effective and super easy to follow, Lets get cooking!",
     },
     
   ];
@@ -44,8 +44,8 @@ const Work = () => {
         <p className="primary-subheading">Recipes</p>
         <h1 className="primary-heading">The Dinner Guide</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        From cozy comfort foods to exotic culinary adventures, embark on a gastronomic journey that
+         promises to delight, making every dinner a memorable occasion.
         </p>
       </div>
       <div className="work-section-bottom">
